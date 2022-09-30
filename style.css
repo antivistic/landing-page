@@ -1,3 +1,8 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -39,15 +44,16 @@ a:hover {
 
 .hero {
 	display: flex;
-	justify content: space-between;
+	justify-content: center;
 	align-content: center;
-	height: 300px;
+	height: 250px;
 	background-color: #1F2937;
 	padding: 30px 75px;
 }
 
-.hero-left {
-	width: 50%;
+.hero-container {
+	display: flex;
+	gap: 50px;
 }
 
 .hero-main-text {
@@ -73,12 +79,10 @@ button {
 }
 
 .hero-right {
-	height: 200px;
-	width: 350px;
 	background-color: grey;
 	color: white;
 	text-align: center;
-	padding: auto;
+	width: 400px;
 }
 
 .hero-right p {               /* WILL REMOVE ONCE IMAGE IS OBTAINED*/
@@ -113,5 +117,33 @@ button {
 	height: 150px;
 	border: 2px solid blue;
 	border-radius: 8px;
-	padding: auto;
+}
+
+.quote {
+	display: flex;
+	justify-content: center;
+	padding: 75px;
+	background-color: #E5E7EB;
+	width: auto;
+}
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote-author {
+	align-self: flex-end;
+	font-size: 24px;
+	font-weight: 900;
+	color: #1F2937;
 }
