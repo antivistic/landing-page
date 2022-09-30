@@ -74,7 +74,7 @@ button {
 	width: 110px;
 	margin: 10px 0px;
 	font-size: 20px;
-	border: none;
+	border: 1px solid white;
 	border-radius: 8px;
 }
 
@@ -146,4 +146,33 @@ button {
 	font-size: 24px;
 	font-weight: 900;
 	color: #1F2937;
+}
+
+.call-to-action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.action-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	background-color: #3882F6;
+	width: 50vw;
+	border-radius: 8px;
+	padding: 40px 100px;
+	margin: 15px;
+}
+
+.action-header {
+	font-size: 24px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.action-message {
+	font-size: 18px;
+	color: #E5E7EB;
 }
