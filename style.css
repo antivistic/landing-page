@@ -1,0 +1,37 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	background-color: #1F2937;
+}
+
+.header-links {
+	display: flex;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.header-links ul {
+	list-style: none;
+	display: flex;
+	gap: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+a:hover {
+	color: purple;
+}
+
+.logo {
+	font-size: 24px;
+	color: #F9FAF8;
+	align-self: center;
+}
